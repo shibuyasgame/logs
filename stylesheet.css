@@ -1,0 +1,55 @@
+body {
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.9em;
+}
+p {
+    margin: 2px 0;
+}
+
+.timestamp {
+    float: right;
+    font-size: 0.8em;
+}
+
+.nav {
+    display: block;
+    width: 100vw;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: black;
+    color: white;
+}
+
+.logs {
+    margin-top: 1em;
+}
+
+.left {
+    float: left;
+    text-align: center;
+    width: 50vw;
+}
+
+.right {
+    float: right;
+    text-align: center;
+    width: 50vw;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    opacity: 0.8;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+
+a:hover {
+    opacity: 1;
+}
