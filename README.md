@@ -1,6 +1,7 @@
 Compilation of old logs from TRG's Genchat (up through November 2nd, 2018).
 
-A bit slow, since it's using runtime Vue.
+A bit slow because of the size of the files being loaded and the lack
+of JSONL streaming libraries.
 
 # TODOs
 In no particular order:
@@ -11,3 +12,4 @@ In no particular order:
 * Add search function
 * Spruce up the formatting
 * Add skins
+* Fix date formatting
