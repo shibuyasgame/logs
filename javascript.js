@@ -43,7 +43,7 @@ var nav = Vue.component("navigation", {
     },
     methods: {
         link: function (pagenum) {
-            return window.location.origin + "?page=" + pagenum;
+            return window.location.pathname + "?page=" + pagenum;
         }
     }
 });
