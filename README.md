@@ -12,4 +12,3 @@ In no particular order:
 * Add search function
 * Spruce up the formatting
 * Add skins
-* Fix date formatting

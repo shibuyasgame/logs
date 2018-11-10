@@ -60,7 +60,7 @@ var logItem = Vue.component("log-item", {
             id: ""
         }
     },
-    template: '<p :id="id" v-bind:class="logtype"><b v-bind:style="{color: color}">{{name}}</b><span v-html="message"></span><span class="timestamp">{{date}}</span></p>',
+    template: '<div :id="id" v-bind:class="logtype"><div><b v-bind:style="{color: color}">{{name}}</b><span v-html="message"></span></div><div class="timestamp">{{date}}</div></div>',
     mounted: function(){
         this.logtype = this.logdata.t;
         this.message = this.logdata.m;
